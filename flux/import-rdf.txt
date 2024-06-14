@@ -1,0 +1,8 @@
+--path
+../flux-cli/src/test/resources/rdf/englishlocale.ttl
+--connection-string
+flux-test-user:password@localhost:8000
+--permissions
+flux-test-role,read,flux-test-role,update
+--collections
+my-triples

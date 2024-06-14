@@ -1,0 +1,7 @@
+--path
+export/lines
+--connection-string
+flux-test-user:password@localhost:8003
+--query
+op.fromView("Medical", "Authors", "")
+--partitions 1

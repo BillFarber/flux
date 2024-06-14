@@ -1,0 +1,5 @@
+--source text
+-Ppath=../flux-cli/src/test/resources/delimited-files/three-rows.csv
+--connection-string flux-test-user:password@localhost:8000
+--permissions flux-test-role,read,flux-test-role,update
+--collections text-docs

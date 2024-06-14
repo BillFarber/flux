@@ -1,0 +1,6 @@
+--path
+export/rdf
+--connection-string
+flux-test-user:password@localhost:8000
+--graphs
+my-triples

@@ -1,4 +1,4 @@
-MarkLogic Flux is a single extensible application for all of your data movement use cases with MarkLogic.
+MarkLogic Flux is a single extensible command line application for all of your data movement use cases with MarkLogic.
 Flux supports importing, exporting, copying, and reprocessing data via a simple command-line interface.
 Flux can also be easily embedded in your own application to support any flow of data to and from MarkLogic.
 
