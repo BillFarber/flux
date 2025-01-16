@@ -1,0 +1,8 @@
+{
+  "user-name": "query-pipeline-user",
+  "password": "password",
+  "role": [
+    "query-pipeline-role",
+    "qconsole-user"
+  ]
+}

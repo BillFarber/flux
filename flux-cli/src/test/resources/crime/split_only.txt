@@ -1,0 +1,13 @@
+--json-lines
+--path "/Users/pbarber/Documents/GitHub/flux/flux-cli/src/test/resources/crime/events.json"
+--connection-string "admin:admin@localhost:8000"
+--uri-replace ".*zip,''"
+--collections "crime-docs"
+--splitter-sidecar-max-chunks 1
+--splitter-sidecar-collections "chunks"
+--splitter-json-pointer "/transcript"
+--splitter-max-chunk-size 10000000
+--repartition 1
+--thread-count 8
+--batch-size 10
+--limit 100

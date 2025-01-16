@@ -1,0 +1,19 @@
+--json-lines
+--path "/Users/pbarber/Documents/GitHub/flux/flux-cli/src/test/resources/crime/events.json"
+--connection-string "admin:admin@localhost:8000"
+--uri-replace ".*zip,''"
+--collections "crime-docs"
+--splitter-sidecar-max-chunks 1
+--splitter-sidecar-collections "chunks"
+--splitter-json-pointer "/transcript"
+--splitter-max-chunk-size 10000000
+--embedder-batch-size 100
+--embedder "azure"
+--embedder-chunks-json-pointer ""
+--embedder-text-json-pointer "/transcript"
+-Eapi-key=3e362f86f828442f8cf57c9b5cb885a8
+-Eendpoint=https://gpt-testing-custom-data1.openai.azure.com
+-Edeployment-name=text-test-embedding-ada-002
+--repartition 1
+--thread-count 8
+--limit 100
